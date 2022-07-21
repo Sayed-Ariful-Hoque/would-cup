@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Kaushan Script', cursive;
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-family: 'Work Sans', sans-serif
+}
+main{
+    width: 70%;
+    margin: auto;
+
+}
+img{
+    width: 100%;
+}
+
+/* top -banner-section
+-------------------------------------- */
+.top-banner{
+    display: flex;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 100px;
+    color: #ddd;
+    padding: 30px 40px 0 10px;
+    
+}
+
+.text-item{
+    margin-top: 100px;
+    margin-left: 70px;
+    color: white;
+    width: 70%;
+}
+.text-item h1{
+    font-size: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+.text-item p{
+    font-size: 40px;
+}
+.text-item button{
+   padding: 30px 60px;
+   font-size: 40px;
+   border-radius: 10px;
+   background-color: orangered;
+   border: none;
+}
+.text-item  button:hover{
+    background-color: orange;
+}
+.top-imgs{
+    width: 50%;
+}
+
+.top-imgs img{
+    height: 900px;
+    width: 100%;
+}
+
+
+
+ /* form
+------------------------- */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    color: white;
+    padding: 25px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+.form button{
+    padding: 40px 0;
+    font-size: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    width: 80%;
+    margin: auto;
+}
+.form .blog{
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+} 
+
+
+/* rigst-side
+------------------------ */
+.main-div{
+    display: flex;
+    margin-top: 120px;
+}
+.would-cups{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.card-div{
+    border: 1px solid gray;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px 40px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    font-size: 50px;
+    margin-left: 60px;
+    border: none;
+
+}
+.imges{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    grid-gap: 20px;
+    font-weight: bold;
+   margin-top: 50px;   
+}
+.imges img{
+    width: 100%;
+
+    
+}
+.text-detles h3{
+    font-size: 20px;
+}
+
+
+
+
+/* footer-section
+------------------------- */
+
+
+
+footer{
+   
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    height: 700px;
+    padding: 10px;
+    font-size: 40px;
+   
+}
+.foter-main-div{
+  
+    margin-top: 250px;
+    padding: 10px;
+
+}
+footer h1{
+   
+    font-family: 'Poppins', sans-serif;
+    color: #ddd;
+    font-size: 60px;
+    
+    padding: 40px 0 0 20px;
+
+}
+footer hr{
+    width: 70%;
+    margin: auto;
+    color: rgba(128, 128, 128, 0.438);
+    
+}
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-bottom: 30px;
+    color: grey;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+/* Media Queries
+-------------------------- */
+
+
+/* Mobile-Device
+----------------- -------------*/
+@media screen and (max-width: 668px){
+    main{
+        width: 100%;
+    }
+    .top-banners, .main-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-banner{
+        flex-direction: row;
+    }
+    {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* /* medel-section
+----------------------- 
+
+
+.form button[ type="submit"]{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    
+}
+
+---------------------*/
