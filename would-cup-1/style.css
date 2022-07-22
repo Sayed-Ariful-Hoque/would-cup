@@ -403,6 +403,15 @@ footer hr{
         width: 100%;
         margin: auto;
     }
+    .form:hover{
+        background-color: gray;
+    }
+    .form button{
+        transition: 1s ease-in-out;
+    }
+    .form button:hover{
+        background-color: navy;
+    }
 
 
     /* wuld-cup

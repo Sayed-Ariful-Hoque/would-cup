@@ -154,49 +154,45 @@ img{
 ------------------------- */
 
 
-
 footer{
-   
     background-color: black;
+    padding: 70px 0 30px;
     color: white;
     text-align: center;
     margin-top: 120px;
-    height: 700px;
-    padding: 10px;
-    font-size: 40px;
    
-}
-.foter-main-div{
-  
-    margin-top: 250px;
-    padding: 10px;
-
 }
 footer h1{
-   
-    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    font-family: 'Work Sans', sans-serif  ;
     color: #ddd;
-    font-size: 60px;
-    
-    padding: 40px 0 0 20px;
+    font-size: 70px;
 
 }
 footer hr{
     width: 70%;
     margin: auto;
+    margin-bottom: 30px;
     color: rgba(128, 128, 128, 0.438);
     
 }
 .footer-section{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    width: 60%;
+    width: 75%;
     margin: auto;
+    text-align: center;
     margin-bottom: 100px;
     margin-bottom: 30px;
     color: grey;
-    font-size: 35px;
+    font-size: 38px;
+}
+.icon p{
+    color: white;
+    display: inline;
+    padding: 20px 40px;
+    font-size: 70px;
+    margin-left: 20px;
 }
 
 
@@ -217,5 +213,166 @@ footer hr{
 
 /* Mobile-device---------------------------------
 --------------------------------------- */
+@media screen and (max-width: 688px) {
+   
+    .top-banner{
+        display: grid;
+    }
+    .text-item{
+        margin-bottom: 80px;
+    }
+    
+    .text-item h1{
+        font-size: 40px;
+    }
+    .text-item p{
+        font-size: 22px;
+    }
+    .text-item button{
+        padding: 20px 30px;
+    }
+    .text-item button:hover{
+        background-color: green;
+    }
+    .top-imgs{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .main-div{
+        display: grid;
+        margin-left: 0;
+    }
+    .form{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        background: none;
+    }
 
 
+    .would-cups{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-main-div{
+        display: grid;
+    }
+    .footer-section{
+         display: flex;
+         flex-direction: column-reverse;
+         width: 75%;
+         margin: auto;
+         text-align: center;
+         margin-bottom: 100px;
+         margin-bottom: 30px;
+         color: grey;
+         font-size: 38px;
+    }
+
+    .icon p{
+         color: cornflowerblue;
+         display: inline;
+         padding: 20px 40px;
+         font-size: 70px;
+         margin-left: 20px;
+
+    }
+    
+    
+}
+
+
+
+
+
+
+
+/* Teblet-device
+-------------------------- */
+@media screen and (min-width: 688px) and (max-width: 992px) {
+    .top-banners{
+    }
+    .top-banner{
+        display: flex;
+    }
+    .text-item {
+        font-size: 20px;
+        margin-left: 30px;
+        width: 80%;
+    }
+    .text-item h1{
+        font-size: 40px;
+    }
+    .text-item p{
+        font-size: 30px;
+    }
+    .text-item button{
+        padding: 20px 0;
+        width: 100%;
+
+        
+    }
+    .top-imgs{
+       width: 100%;
+       margin: auto;
+       padding: 10px 10px 0;
+    }
+    .top-imgs img{
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .main-div{
+        display: grid;
+    }
+    .form{
+        background: none;
+    }
+    .form:hover{
+        background-color: #f1f1f1;
+    }
+    .form button{
+        transition: 1s ease-in;
+    }
+    .form button:hover{
+        background-color: green;
+    }
+
+    .would-cups{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 80px;
+    
+    }
+    .card-div{
+    }
+
+
+    
+  .footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-bottom: 30px;
+    color: grey;
+    font-size: 38px;
+}
+  .footer-section p{
+   
+  }
+
+  .icon p{
+    color: olive;
+    display: inline;
+    padding: 20px 40px;
+    font-size: 70px;
+    margin-left: 20px;
+
+}
+}
