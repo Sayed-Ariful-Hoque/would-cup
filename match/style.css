@@ -95,6 +95,10 @@ img{
     width: 80%;
     margin: auto;
 }
+.form a{
+    text-decoration: none;
+    color: black;
+}
 .form .blog{
     background-color: red;
     color: white;
@@ -117,8 +121,7 @@ img{
 }
 .card-div{
     border: 1px solid gray;
-    width: 80%;
-    height: 80%;
+    width: 70%;
     text-align: center;
     font-size: 20px;
     padding: 40px 40px;
@@ -136,7 +139,7 @@ img{
     justify-content: space-around;
     grid-gap: 20px;
     font-weight: bold;
-   margin-top: 50px;   
+    margin-top: 50px;   
 }
 .imges img{
     width: 100%;
@@ -144,7 +147,10 @@ img{
     
 }
 .text-detles h3{
-    font-size: 20px;
+    font-size: 30px;
+}
+.text-detles p{
+    font-size: 24px;
 }
 
 
@@ -241,19 +247,24 @@ footer hr{
     }
     .main-div{
         display: grid;
-        margin-left: 0;
+        margin-left: -30px;
+        margin-right: 20px;
+        margin: 0;
     }
     .form{
         width: 100%;
         margin: auto;
         display: grid;
         background: none;
+        margin-right: 20px;
+        margin-left: -30px;
     }
 
 
     .would-cups{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin-left: -60px;
     }
     .footer-main-div{
         display: grid;
@@ -329,6 +340,7 @@ footer hr{
     }
     .form{
         background: none;
+        margin-bottom: 120px;
     }
     .form:hover{
         background-color: #f1f1f1;

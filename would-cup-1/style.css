@@ -94,6 +94,10 @@ width: 100%;
     width: 90%;
     margin: auto;
 }
+.form a{
+    text-decoration: none;
+    color: black;
+}
 .form .blog{
     background-color: red;
     color: white;
@@ -154,9 +158,6 @@ width: 100%;
 /* foot-section
 ------------------------- */
 
-.footer-main-div{
-
-}
 
 footer{
     background-color: black;
@@ -259,8 +260,9 @@ footer hr{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin: auto;
-        margin-left: 0;
         margin-top: 100px;
+        margin: 0;
+        margin-left: -30px;
         
         
     }
@@ -268,14 +270,14 @@ footer hr{
         width: 70%;
         margin: auto;
         background: none;
+        margin-right: 70px;
     }
     .form button{
        width: 120%;
+
        margin: auto;
-       margin-left: -20px;
        border-radius: 30px;
        background-color: whitesmoke;
-       
     }
 
 
@@ -286,12 +288,18 @@ footer hr{
         margin-top: 120px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        margin-right: 20px;
+        margin-left: -20px;
     }
     .test-ditels button{
+        box-sizing: border-box;
         border: none;
         background-color: gray;
-        padding: 10px 40px;
+        padding: 20px 30 20px 30px;
         margin-top: 30px;
+        border-radius: 10px;
+        margin-right: 20px;
     }
     .course-info{
        
@@ -305,7 +313,7 @@ footer hr{
     }
 
     .hide-button button{
-        display: no;
+        display: none;
      }
 
 
@@ -317,7 +325,7 @@ footer hr{
     .footer-section{
          display: flex;
          flex-direction: column-reverse;
-         width: 75%;
+         width: 90%;
          margin: auto;
          text-align: center;
          margin-bottom: 100px;
@@ -454,6 +462,7 @@ footer hr{
     font-weight: bold;
     color: white;
     display: block;
+    margin-left: ;
  }
 
 
